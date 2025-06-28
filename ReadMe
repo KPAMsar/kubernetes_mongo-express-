@@ -1,0 +1,23 @@
+Project Overview
+This project demonstrates how to deploy MongoDB and Mongo Express in a Kubernetes environment. It provides a scalable and secure setup for managing MongoDB databases with a web-based interface provided by Mongo Express.
+
+MongoDB: A NoSQL database that stores data in a flexible, JSON-like format. It serves as the backend database for your application.
+
+Mongo Express: A web-based MongoDB admin interface that allows you to manage your MongoDB database easily through a browser.
+
+Key Features
+Kubernetes Deployment: Uses Kubernetes to manage the deployment and scaling of MongoDB and Mongo Express.
+
+Helm/Manual Configuration: Provides YAML configurations for deploying MongoDB and Mongo Express, including their services and ingress setup.
+
+Environment Variables: Configured for MongoDB root credentials and Mongo Express connection to MongoDB.
+
+Objective
+The main goal of this project is to simplify database management in Kubernetes by using Mongo Express to interact with MongoDB without having to use command-line tools. The setup makes it easy to deploy, scale, and manage MongoDB in a Kubernetes-based infrastructure.
+
+Technologies Used
+Kubernetes: Orchestration platform for automating deployment, scaling, and management of containerized applications.
+
+MongoDB: NoSQL database used for storing data.
+
+Mongo Express: Web-based interface for managing MongoDB databases.
